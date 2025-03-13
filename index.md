@@ -1,1 +1,1 @@
-[About](_site/about.md)
+[About](about.md)

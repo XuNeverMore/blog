@@ -3,7 +3,7 @@ title: PowerShell
 date: 2025-03-15
 ---
 # PowerShell终端路径显示git分支
-1. 运行echo $PSHOME找到PowerShell根目录，修改`Microsoft.PowerShell_profile.ps1`文件（没有则新建并修改），添加下面的代码：
+1. 运行`echo $PSHOME`找到PowerShell根目录，修改`Microsoft.PowerShell_profile.ps1`文件（没有则新建并修改），添加下面的代码：
 ```powershell
 function prompt {
     $path = (Get-Location).Path
@@ -13,6 +13,6 @@ function prompt {
     }
     "$path$branch> "
 }
-
 ```
+
 2. 保存关闭并重启终端

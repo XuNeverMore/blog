@@ -3,10 +3,9 @@ title: Github Page
 date: 2025-03-13
 tag: Github
 ---
-# Github Page
-## Github Page是什么
+# Github Page是什么
 Github Page是Github提供的一种静态网页托管服务，可以用来展示你的项目、博客等。Github Page支持HTML、CSS、JavaScript等前端技术，并且可以绑定自定义域名。
-## 如何使用Github Page
+# 如何使用Github Page
 1. 在Github上创建一个新的仓库，仓库名称必须为`yourusername.github.io`，其中`yourusername`是你的Github用户名。
 2. 在仓库中创建一个`_config.yml`文件，内容为`theme: minima`（主题）。
 3. 在仓库中创建一个`index.html`文件，内容为你的网页内容。

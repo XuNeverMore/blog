@@ -3,7 +3,7 @@ title: "About"
 date: 2025-03-13
 ---
 
-<img src="assets/five.jpg" style="width: 50%; height: auto;" alt="avatar">
+<img src="assets/five.jpg" style="width: 25%; height: auto;border-radius:50%" alt="avatar">
 
 # About me
 
